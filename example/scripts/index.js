@@ -53,7 +53,7 @@ stringIncludes(
   "sienTe"
 );
 
-/*--------- exercise: slipt   ----------*/
+/*--------- exercise: slipt, join, reverse : string  ----------*/
 
 palindrome("hola");
 

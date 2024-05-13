@@ -1,4 +1,5 @@
 import { lengthOf } from "./lengthOf.js";
+import { palindromeMath } from "./math.js";
 import { palindrome } from "./palindrome.js";
 import { stringIncludes } from "./stringIncludes.js";
 import { titleFormat } from "./titleFormat.js";
@@ -60,3 +61,6 @@ palindrome("hola");
 palindrome("mama");
 
 palindrome("hannah");
+
+let number = [1, 2, 4, 9, -5];
+palindromeMath(number);

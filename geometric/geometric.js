@@ -6,6 +6,13 @@ const arrayRectangulos = [rectangulo1, rectangulo2, rectangulo3];
 console.log("🚀 ~ arrayRectangulos:", arrayRectangulos);
 
 arrayRectangulos.forEach((rectangulo) => {
-  area(rectangulo);
-  perimetro(rectangulo);
+  const template = `
+  <table border="1">
+  <tr>
+    <th>${area(rectangulo)}</th>
+    <th>${perimetro(rectangulo)}</th>
+  </tr>
+   </table>
+  `;
+  console.log("🚀 ~ arrayRectangulos.forEach ~ template:", template);
 });
